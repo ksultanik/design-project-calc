@@ -505,7 +505,7 @@ function App() {
         marginBottom: 12,
       }}>
         <span>{showBreakdown ? "Hide" : "Show"} Step-by-Step Formula Breakdown</span>
-        <span style={{ fontSize: 18, transform: showBreakdown ? "rotate(180deg)" : "none", transition: "transform 0.2s", display: "inline-block" }}>&blacktriangledown;</span>
+        <span style={{ fontSize: 18, transform: showBreakdown ? "rotate(180deg)" : "none", transition: "transform 0.2s", display: "inline-block" }}>{"\u25BE"}</span>
       </button>
       {showBreakdown && (
         <FormulaBreakdown
@@ -525,7 +525,7 @@ function App() {
         marginTop: 12,
       }}>
         <span>{showMethodology ? "Hide" : "Show"} Methodology &amp; Calibration Guide</span>
-        <span style={{ fontSize: 18, transform: showMethodology ? "rotate(180deg)" : "none", transition: "transform 0.2s", display: "inline-block" }}>&blacktriangledown;</span>
+        <span style={{ fontSize: 18, transform: showMethodology ? "rotate(180deg)" : "none", transition: "transform 0.2s", display: "inline-block" }}>{"\u25BE"}</span>
       </button>
       {showMethodology && (
         <div style={{
@@ -565,7 +565,7 @@ function App() {
         fontFamily: "'JetBrains Mono', monospace",
       }}>
         &plusmn;20% confidence range &middot; Calibrate with 5&ndash;10 completed projects for best accuracy
-        <br>Designed by Keenan in Virginia. All rights reserved.</br>
+        <p>Designed by Keenan in Virginia. All rights reserved.</p>
       </div>
     </div>
   );
