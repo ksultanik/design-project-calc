@@ -565,6 +565,7 @@ function App() {
         fontFamily: "'JetBrains Mono', monospace",
       }}>
         &plusmn;20% confidence range &middot; Calibrate with 5&ndash;10 completed projects for best accuracy
+        <br>Designed by Keenan in Virginia. All rights reserved.</br>
       </div>
     </div>
   );
