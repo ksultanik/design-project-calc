@@ -564,7 +564,8 @@ function App() {
         fontSize: 11, color: "rgba(255,255,255,0.2)",
         fontFamily: "'JetBrains Mono', monospace",
       }}>
-        &plusmn;20% confidence range &middot; Calibrate with 5&ndash;10 completed projects for best accuracy
+        &plusmn;20% confidence range &middot; Calibrate with 5&ndash;10 completed projects for best accuracy<br>
+        Designed by Keenan in Virginia. All rights reserved.
       </div>
     </div>
   );
